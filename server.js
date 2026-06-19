@@ -5,6 +5,6 @@ const port = process.env.PORT || 6700; // port variable take any port or pick 67
 app.use(express.static("Frontend"));
 //listening on the port - after listen is succesfull we know that the port is running succefully
 app.listen(port , function(){
-    console.log("App is running on https://localhost:"+ port);
+    console.log("App is running on http://localhost:"+ port);
 });
 
