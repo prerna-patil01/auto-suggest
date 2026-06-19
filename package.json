@@ -1,0 +1,20 @@
+{
+  "name": "auto-suggest",
+  "version": "1.0.0",
+  "description": "Verify my git setup : git init git add + git commit with message git push /sync",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prerna-patil01/auto-suggest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prerna-patil01/auto-suggest/issues"
+  },
+  "homepage": "https://github.com/prerna-patil01/auto-suggest#readme"
+}
