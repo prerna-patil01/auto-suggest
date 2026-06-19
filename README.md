@@ -1,7 +1,6 @@
 # auto-suggest
 Verify my git setup :
 git init
-git add .
-git commit .
-git push .
-
+git add -A
+git commit -m "Described changes"
+git push
