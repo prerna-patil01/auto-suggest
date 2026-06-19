@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/prerna-patil01/auto-suggest/issues"
   },
-  "homepage": "https://github.com/prerna-patil01/auto-suggest#readme"
+  "homepage": "https://github.com/prerna-patil01/auto-suggest#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
 }
