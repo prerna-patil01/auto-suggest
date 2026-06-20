@@ -58,3 +58,30 @@
     left: 35px;
     font-size: 30px;
 }
+
+#search-suggestions {
+    width: 320px;
+    margin: 8px auto 0 auto;
+
+    background: white;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+#search-suggestions div {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #eee;
+}
+
+#search-suggestions div:last-child {
+    border-bottom: none;
+}
+
+#search-suggestions div:hover {
+    background-color: #f8f8f8;
+}

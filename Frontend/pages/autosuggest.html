@@ -6,34 +6,48 @@
     <title>AutoSuggest</title>
     <link rel="stylesheet" href="../css/autosuggest.css">
 </head>
+
 <body>
-    <!--<div class = navbar>
-        <a href = "/">Home</a>
-        <a href = "/pages/card.html">Card</a>
-        <a href = "/pages/toggle.html">Toggle</a>
-        <a href = "/pages/randomuser.html">Random User</a>
-        <a href = "pages/gitpulse.html"> GitPulse</a>
-    </div-->
+
+    <!-- Status Bar -->
     <div class="status-bar">
         <span class="gear" aria-label="Settings">&#x2699;</span>
+
         <div class="status-info">
             <span>&#x2022; Online</span>
             <span>|</span>
             <span>&#x23F0; - ms</span>
         </div>
     </div>
+
+    <!-- Title -->
     <div class="title-container">
-    <h1 class="title">
-        <span class="being">Being</span>Infinity
-    </h1>
+        <h1 class="title">
+            <span class="being">Being</span>Infinity
+        </h1>
     </div>
-    <p  id = "ip">One million phrases. Four Algorithms. Prefix Based Auto Suggest</p>
-    <!-- Styled size and color -->
-    <div class = "Container">
-    <span class = "lens">&#x1F50D;</span>
-    <input class = "searchbox" type = "text"  placeholder="Start typing to search......">
+
+    <!-- Subtitle -->
+    <p id="ip">
+        One million phrases. Four Algorithms. Prefix Based Auto Suggest
+    </p>
+
+    <!-- Search Bar -->
+    <div class="Container">
+        <span class="lens">&#x1F50D;</span>
+
+        <input
+            class="searchbox"
+            type="text"
+            placeholder="Start typing to search......"
+            id="search-bar"
+        >
+    </div>
+
+    <!-- Suggestions Dropdown -->
     <div id="search-suggestions"></div>
-    </div>
+
+    <script src="../js/autosuggest.js"></script>
 
 </body>
 </html>
