@@ -6,11 +6,55 @@
 }
 
 .gear {
-    font-size: 24px;
+    font-size: 35px;
 }
 
 .status-info {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 10px;
+}
+
+#ip {
+    text-align: center;
+    color: grey;
+    font-size: 18px;
+}
+
+.title-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.title {
+    font-size: 80px;
+    margin-bottom: 10px;
+}
+
+.being {
+    color: hotpink;
+}
+
+.Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.searchbox {
+    width: 250px;
+    height: 35px;
+    border: 1.5px solid pink;
+    border-radius: 250px;
+    padding: 0 35px;
+    font-size: 15px;
+    outline: none;
+}
+
+.lens {
+    position: relative;
+    left: 35px;
+    font-size: 30px;
 }
