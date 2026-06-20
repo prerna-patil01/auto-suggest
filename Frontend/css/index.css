@@ -40,7 +40,11 @@ body{
     width: 300px;
     text-align: center;
     margin:auto;
+
 }
 .card img{
     width: 100%;
+}
+.card button{
+    margin-bottom: 2px;
 }

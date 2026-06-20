@@ -1,23 +1,40 @@
-<!DOCTYPE html> 
-<html lang="en"> 
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Auto Suggest</title>
-    <link rel = "stylesheet" href = "../css/index.css">
+    <title>Gender Toggle Card</title>
+    <link rel="stylesheet" href="../css/index.css">
 </head>
 <body>
-    <div class = navbar>
-        <a href = "">Home</a>
-        <a href = "">Card</a>
-        <a href = "">Toggle</a>
-        <a href = "">Random User</a>
+
+    <div class="navbar">
+        <a href="/">Home</a>
+        <a href="/pages/card.html">Card</a>
+        <a href="/pages/toggle.html">Toggle</a>
+        <a href="">Random User</a>
     </div>
-    <div class = "card">   
+
+    <div class="card">
         <img src="../images/john.png" alt="User Image">
-        <h2>John doe</h2>
-        <p>Male</p>
+        <h2>John Doe</h2>
+
+        <p id="gender">Male</p>
+
+        <button id="toggleBtn">
+            Toggle Gender
+        </button>
     </div>
-    <script src = "js/index.js"></script>
+
+    <script>
+        const gender = document.getElementById("gender");
+        const button = document.getElementById("toggleBtn");
+
+        button.addEventListener("click", () => {
+            gender.textContent =
+                gender.textContent === "Male" ? "Female" : "Male";
+        });
+    </script>
+
 </body>
 </html>

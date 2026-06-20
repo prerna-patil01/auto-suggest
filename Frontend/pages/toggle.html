@@ -3,34 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Toggle</title>
+    <title>Gender Toggle Card</title>
     <link rel="stylesheet" href="../css/index.css">
 </head>
 <body>
+
     <div class="navbar">
-        <a href="../index.html">Home</a>
-        <a href="pages/card.html">Card</a>
-        <a href="pages/toggle.html">Toggle</a>
+        <a href="/">Home</a>
+        <a href="/pages/card.html">Card</a>
+        <a href="/pages/toggle.html">Toggle</a>
         <a href="">Random User</a>
     </div>
 
-    <h1>Toggle Example</h1>
-    <button id="toggleButton">Hide</button>
-    <p id="toggleText" class="para">This text can be shown or hidden.</p>
-
-    <script>
-        const toggleButton = document.getElementById("toggleButton");
-        const toggleText = document.getElementById("toggleText");
-
-        toggleButton.addEventListener("click", function () {
-            if (toggleText.style.display === "none") {
-                toggleText.style.display = "block";
-                toggleButton.textContent = "Hide";
-            } else {
-                toggleText.style.display = "none";
-                toggleButton.textContent = "Show";
-            }
-        });
-    </script>
+    <div class="card">
+        <img id = "user-img" src="../images/john.png" alt="User Image">
+        <h2 id = "user-name">John Doe</h2>
+        <p id=" user-gender">Male</p>
+        <button onclick = "toggle()">
+            Toggle 
+        </button>
+    </div>
+    <script src = "../js/index.js"></script>
+    <script src = "../js/toggle.js"></script>
 </body>
 </html>
